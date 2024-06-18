@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+}
+
+.countryCoatOfArmsElementContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.countryCoatOfArmsElementContainer img{
+    width: 50px;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    white-space: nowrap;
+}
+
+th, td{
+    text-align: center;
+    flex: 1;
+    border: 1px solid #DDD;
+}
+
+tr{
+    display: flex;
+}
+
+/* .capitalButton{
+    margin-top: 10px;
+} */
+
+.weatherModel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.weatherModelContent{
+    background-color: white;
+}
+
+.countryCapitalElement{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
